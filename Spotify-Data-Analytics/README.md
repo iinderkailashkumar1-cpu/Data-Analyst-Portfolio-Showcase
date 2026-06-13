@@ -15,9 +15,18 @@ The project bridges the gap between raw database warehousing and executive data 
 
 ---
 
+## 🖥️ Executive Interactive Dashboard Overview
+Before looking at individual components, here is the full analytical view of the finalized production dashboard:
+
+<p align="center">
+  <img src="EDA/Spotify_Data_Analyst_Dashboard.jpg" width="100%" alt="Spotify Production Dashboard">
+</p>
+
+---
+
 ## 📊 Tableau Visualizations vs. SQL Backend Validation (Side-by-Side)
 
-To demonstrate rigorous data integrity, the interactive frontend charts are mirrored and cross-verified with their corresponding backend database SQL result grids:
+To demonstrate rigorous data integrity, the interactive frontend charts are mirrored and cross-verified side-by-side with their corresponding backend database SQL result grids:
 
 ### 1. Top 10 Most Prolific and Popular Artists Analysis
 * **Analytical Rule Applied:** Filtered out one-hit wonders by enforcing a strict constraint where an artist must have a minimum threshold of 5 tracks ($\text{Total Tracks} \ge 5$) within the active dataset to qualify for the average track popularity ranking.
@@ -28,24 +37,72 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/image_763962.png" width="100%" alt="Tableau Treemap Popular Artists"></td>
+    <td><img src="EDA/Popular_Artists.png" width="100%" alt="Tableau Treemap Popular Artists"></td>
     <td><img src="EDA/Popular_Artists.PNG" width="100%" alt="SQL Artist Verification Grid"></td>
   </tr>
 </table>
 
 ---
 
-### 2. Mood Trends & Genre-Wise Valence Analysis
-* **Analytical Rule Applied:** Tracked and structured emotional music vectors (positive vibes/valence scores) aggregated alongside exact historical total track allocations distributed per music genre.
+### 2. Top 10 Most Popular Music Genres
+* **Analytical Rule Applied:** Grouped and sorted total track allocation frequencies across dominant consumer streaming categories.
 
 <table>
   <tr>
-    <td width="50%" align="center"><b>Frontend View: Tableau Master Dashboard</b></td>
+    <td width="50%" align="center"><b>Frontend View: Tableau Packed Bubbles</b></td>
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/image_eed2bb.jpg" width="100%" alt="Tableau Master Dashboard Visual"></td>
+    <td><img src="EDA/Popular_Genres.png" width="100%" alt="Tableau Popular Genres"></td>
     <td><img src="EDA/Popular_Genres.PNG" width="100%" alt="SQL Genre Verification Grid"></td>
+  </tr>
+</table>
+
+---
+
+### 3. Mood Trends & Genre-Wise Valence Analysis
+* **Analytical Rule Applied:** Tracked emotional music vectors (positive vibes/valence scores) aggregated directly alongside corresponding music genres.
+
+<table>
+  <tr>
+    <td width="50%" align="center"><b>Frontend View: Tableau Mood Trends Area Wave</b></td>
+    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+  </tr>
+  <tr>
+    <td><img src="EDA/Mood_Trends.png" width="100%" alt="Tableau Mood Trends"></td>
+    <td><img src="EDA/Mood_Trends.PNG" width="100%" alt="SQL Mood Trends Grid"></td>
+  </tr>
+</table>
+
+---
+
+### 4. Genre-Wise Audio Features Profiling Matrix
+* **Analytical Rule Applied:** Multi-column aggregation of critical sonic waves (Danceability, Energy, Valence, Loudness) mapped out per track identity catalog.
+
+<table>
+  <tr>
+    <td width="50%" align="center"><b>Frontend View: Tableau Profiling Grid</b></td>
+    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+  </tr>
+  <tr>
+    <td><img src="EDA/Audio_Feature.png" width="100%" alt="Tableau Audio Profiling Matrix"></td>
+    <td><img src="EDA/Audio_Featuring.PNG" width="100%" alt="SQL Audio Features Grid"></td>
+  </tr>
+</table>
+
+---
+
+### 5. Explicit Content Economics (Business Impact Analysis)
+* **Analytical Rule Applied:** Calculated categorical track totals matched against performance popularity scores to map global content distribution trends.
+
+<table>
+  <tr>
+    <td width="50%" align="center"><b>Frontend View: Tableau Content Impact Bars</b></td>
+    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+  </tr>
+  <tr>
+    <td><img src="EDA/Explicit_and_Clean_Conten.png" width="100%" alt="Tableau Explicit Content Impact"></td>
+    <td><img src="EDA/Explict_Content.PNG" width="100%" alt="SQL Explicit Content Grid"></td>
   </tr>
 </table>
 
