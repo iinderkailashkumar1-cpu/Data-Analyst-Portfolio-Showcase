@@ -24,85 +24,50 @@ Before looking at individual components, here is the full analytical view of the
 
 ## 📊 Tableau Visualizations vs. SQL Backend Validation (Side-by-Side)
 
-To demonstrate rigorous data integrity, the interactive frontend charts are mirrored and cross-verified side-by-side with their corresponding backend database SQL result grids:
+To demonstrate rigorous data integrity, the interactive frontend charts are mirrored and cross-verified side-by-side with their corresponding backend database SQL result grids using direct Markdown parsing:
 
 ### 1. Top 10 Most Prolific and Popular Artists Analysis
 * **Analytical Rule Applied:** Filtered out one-hit wonders by enforcing a strict constraint where an artist must have a minimum threshold of 5 tracks ($\text{Total Tracks} \ge 5$) within the active dataset to qualify for the average track popularity ranking.
 
-<table>
-  <tr>
-    <td><b>Frontend View: Tableau Treemap</b></td>
-    <td><b>Backend View: SQL Result Grid</b></td>
-  </tr>
-  <tr>
-    <td><img src="EDA/image_763962.png"></td>
-    <td><img src="EDA/Popular_Artists.PNG"></td>
-  </tr>
-</table>
+| Frontend View: Tableau Treemap | Backend View: SQL Result Grid |
+| :---: | :---: |
+| ![Tableau Treemap Popular Artists](EDA/image_763962.png) | ![SQL Artist Verification Grid](EDA/Popular_Artists.PNG) |
 
 ---
 
 ### 2. Top 10 Most Popular Music Genres
 * **Analytical Rule Applied:** Grouped and sorted total track allocation frequencies across dominant consumer streaming categories.
 
-<table>
-  <tr>
-    <td><b>Frontend View: Tableau Bubble Chart</b></td>
-    <td><b>Backend View: SQL Result Grid</b></td>
-  </tr>
-  <tr>
-    <td><img src="EDA/Popular_Genres.PNG"></td>
-    <td><img src="EDA/Popular_Genres.PNG"></td>
-  </tr>
-</table>
+| Frontend View: Tableau Bubble Chart | Backend View: SQL Result Grid |
+| :---: | :---: |
+| ![Tableau Popular Genres](EDA/Popular_Genres.PNG) | ![SQL Genre Verification Grid](EDA/Popular_Genres.PNG) |
 
 ---
 
 ### 3. Mood Trends & Genre-Wise Valence Analysis
 * **Analytical Rule Applied:** Tracked emotional music vectors (positive vibes/valence scores) aggregated directly alongside corresponding music genres.
 
-<table>
-  <tr>
-    <td><b>Frontend View: Tableau Area Wave</b></td>
-    <td><b>Backend View: SQL Result Grid</b></td>
-  </tr>
-  <tr>
-    <td><img src="EDA/Mood_Trends.PNG"></td>
-    <td><img src="EDA/Mood_Trends.PNG"></td>
-  </tr>
-</table>
+| Frontend View: Tableau Mood Trends Area Wave | Backend View: SQL Result Grid |
+| :---: | :---: |
+| ![Tableau Mood Trends](EDA/Mood_Trends.PNG) | ![SQL Mood Trends Grid](EDA/Mood_Trends.PNG) |
 
 ---
 
 ### 4. Genre-Wise Audio Features Profiling Matrix
 * **Analytical Rule Applied:** Multi-column aggregation of critical sonic waves (Danceability, Energy, Valence, Loudness) mapped out per track identity catalog.
 
-<table>
-  <tr>
-    <td><b>Frontend View: Tableau Profiling Grid</b></td>
-    <td><b>Backend View: SQL Result Grid</b></td>
-  </tr>
-  <tr>
-    <td><img src="EDA/Audio_Feature.PNG"></td>
-    <td><img src="EDA/Audio_Featuring.PNG"></td>
-  </tr>
-</table>
+| Frontend View: Tableau Profiling Grid | Backend View: SQL Result Grid |
+| :---: | :---: |
+| ![Tableau Audio Profiling Matrix](EDA/Audio_Feature.PNG) | ![SQL Audio Features Grid](EDA/Audio_Featuring.PNG) |
 
 ---
 
 ### 5. Explicit Content Economics (Business Impact Analysis)
 * **Analytical Rule Applied:** Calculated categorical track totals matched against performance popularity scores to map global content distribution trends.
 
-<table>
-  <tr>
-    <td><b>Frontend View: Tableau Content Bars</b></td>
-    <td><b>Backend View: SQL Result Grid</b></td>
-  </tr>
-  <tr>
-    <td><img src="EDA/Explicit_and_Clean_Content.PNG"></td>
-    <td><img src="EDA/Explicit_Content.PNG"></td>
-  </tr>
-</table>
+| Frontend View: Tableau Content Bars | Backend View: SQL Result Grid |
+| :---: | :---: |
+| ![Tableau Explicit Content Impact](EDA/Explicit_and_Clean_Content.PNG) | ![SQL Explicit Content Grid](EDA/Explicit_Content.PNG) |
 
 ---
 
