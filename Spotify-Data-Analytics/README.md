@@ -37,7 +37,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Popular_Artists.png" width="100%" alt="Tableau Treemap Popular Artists"></td>
+    <td><img src="EDA/Popular_Artists.PNG" width="100%" alt="Tableau Treemap Popular Artists"></td>
     <td><img src="EDA/Popular_Artists.PNG" width="100%" alt="SQL Artist Verification Grid"></td>
   </tr>
 </table>
@@ -53,7 +53,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Popular_Genres.png" width="100%" alt="Tableau Popular Genres"></td>
+    <td><img src="EDA/Popular_Genres.PNG" width="100%" alt="Tableau Popular Genres"></td>
     <td><img src="EDA/Popular_Genres.PNG" width="100%" alt="SQL Genre Verification Grid"></td>
   </tr>
 </table>
@@ -69,7 +69,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Mood_Trends.png" width="100%" alt="Tableau Mood Trends"></td>
+    <td><img src="EDA/Mood_Trends.PNG" width="100%" alt="Tableau Mood Trends"></td>
     <td><img src="EDA/Mood_Trends.PNG" width="100%" alt="SQL Mood Trends Grid"></td>
   </tr>
 </table>
@@ -85,7 +85,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Audio_Feature.png" width="100%" alt="Tableau Audio Profiling Matrix"></td>
+    <td><img src="EDA/Audio_Feature.PNG" width="100%" alt="Tableau Audio Profiling Matrix"></td>
     <td><img src="EDA/Audio_Featuring.PNG" width="100%" alt="SQL Audio Features Grid"></td>
   </tr>
 </table>
@@ -101,7 +101,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Explicit_and_Clean_Conten.png" width="100%" alt="Tableau Explicit Content Impact"></td>
+    <td><img src="EDA/Explicit_and_Clean_Conten.PNG" width="100%" alt="Tableau Explicit Content Impact"></td>
     <td><img src="EDA/Explict_Content.PNG" width="100%" alt="SQL Explicit Content Grid"></td>
   </tr>
 </table>
