@@ -18,7 +18,7 @@ The project bridges the gap between raw database warehousing and executive data 
 ## 🖥️ Executive Interactive Dashboard Overview
 Before looking at individual components, here is the full analytical view of the finalized production dashboard:
 
-![Spotify Production Dashboard](Spotify_Data_Analytics/Spotify_Data_Analyst_Dashoard.PNG)
+![Spotify Production Dashboard](Spotify_Data_Analyst_Dashoard.PNG)
 
 ---
 
@@ -31,7 +31,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 | Frontend View: Tableau Treemap | Backend View: SQL Result Grid |
 | :---: | :---: |
-| ![Tableau Treemap Popular Artists](Spotify_Data_Analytics/Popular_Artists.PNG) | ![SQL Artist Verification Grid](Spotify_EDA_in_SQL/Popular_Artists.PNG) |
+| ![Tableau Treemap Popular Artists](Popular_Artists.PNG) | ![SQL Artist Verification Grid](Spotify_EDA_in_SQL/Popular_Artists.PNG) |
 
 ---
 
@@ -40,7 +40,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 | Frontend View: Tableau Bubble Chart | Backend View: SQL Result Grid |
 | :---: | :---: |
-| ![Tableau Popular Genres](Spotify_Data_Analytics/Popular_Genres.PNG) | ![SQL Genre Verification Grid](Spotify_EDA_in_SQL/Popular_Genres.PNG) |
+| ![Tableau Popular Genres](Popular_Genres.PNG) | ![SQL Genre Verification Grid](Spotify_EDA_in_SQL/Popular_Genres.PNG) |
 
 ---
 
@@ -49,7 +49,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 | Frontend View: Tableau Mood Trends Area Wave | Backend View: SQL Result Grid |
 | :---: | :---: |
-| ![Tableau Mood Trends](Spotify_Data_Analytics/Mood_Trends.PNG) | ![SQL Mood Trends Grid](Spotify_EDA_in_SQL/Mood_Trends.PNG) |
+| ![Tableau Mood Trends](Mood_Trends.PNG) | ![SQL Mood Trends Grid](Spotify_EDA_in_SQL/Mood_Trends.PNG) |
 
 ---
 
@@ -58,7 +58,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 | Frontend View: Tableau Profiling Grid | Backend View: SQL Result Grid |
 | :---: | :---: |
-| ![Tableau Audio Profiling Matrix](Spotify_Data_Analytics/Audio_Feature.PNG) | ![SQL Audio Features Grid](Spotify_EDA_in_SQL/Audio_Featuring.PNG) |
+| ![Tableau Audio Profiling Matrix](Audio_Feature.PNG) | ![SQL Audio Features Grid](Spotify_EDA_in_SQL/Audio_Featuring.PNG) |
 
 ---
 
@@ -67,7 +67,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 | Frontend View: Tableau Content Bars | Backend View: SQL Result Grid |
 | :---: | :---: |
-| ![Tableau Explicit Content Impact](Spotify_Data_Analytics/Explicit_and_Clean_Content.PNG) | ![SQL Explicit Content Grid](Spotify_EDA_in_SQL/Explicit_Content.PNG) |
+| ![Tableau Explicit Content Impact](Explicit_and_Clean_Content.PNG) | ![SQL Explicit Content Grid](Spotify_EDA_in_SQL/Explicit_Content.PNG) |
 
 ---
 
