@@ -19,7 +19,7 @@ The project bridges the gap between raw database warehousing and executive data 
 Before looking at individual components, here is the full analytical view of the finalized production dashboard:
 
 <p align="center">
-  <img src="EDA/Spotify_Data_Analyst_Dashboard.jpg" width="100%" alt="Spotify Production Dashboard">
+  <img src="EDA/Spotify_Data_Analyst_Dashoard.PNG" width="100%" alt="Spotify Production Dashboard">
 </p>
 
 ---
@@ -37,7 +37,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Popular_Artists.PNG" width="100%" alt="Tableau Treemap Popular Artists"></td>
+    <td><img src="EDA/image_763962.png" width="100%" alt="Tableau Treemap Popular Artists"></td>
     <td><img src="EDA/Popular_Artists.PNG" width="100%" alt="SQL Artist Verification Grid"></td>
   </tr>
 </table>
@@ -49,7 +49,7 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 <table>
   <tr>
-    <td width="50%" align="center"><b>Frontend View: Tableau Packed Bubbles</b></td>
+    <td width="50%" align="center"><b>Frontend View: Tableau Bubble Chart</b></td>
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
@@ -101,8 +101,8 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
     <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Explicit_and_Clean_Conten.PNG" width="100%" alt="Tableau Explicit Content Impact"></td>
-    <td><img src="EDA/Explict_Content.PNG" width="100%" alt="SQL Explicit Content Grid"></td>
+    <td><img src="EDA/Explicit_and_Clean_Content.PNG" width="100%" alt="Tableau Explicit Content Impact"></td>
+    <td><img src="EDA/Explicit_Content.PNG" width="100%" alt="SQL Explicit Content Grid"></td>
   </tr>
 </table>
 
