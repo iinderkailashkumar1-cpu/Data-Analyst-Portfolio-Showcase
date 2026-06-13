@@ -18,9 +18,7 @@ The project bridges the gap between raw database warehousing and executive data 
 ## 🖥️ Executive Interactive Dashboard Overview
 Before looking at individual components, here is the full analytical view of the finalized production dashboard:
 
-<p align="center">
-  <img src="EDA/Spotify_Data_Analyst_Dashoard.PNG" width="100%" alt="Spotify Production Dashboard">
-</p>
+![Spotify Production Dashboard](EDA/Spotify_Data_Analyst_Dashoard.PNG)
 
 ---
 
@@ -33,12 +31,12 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 <table>
   <tr>
-    <td width="50%" align="center"><b>Frontend View: Tableau Treemap Analysis</b></td>
-    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+    <td><b>Frontend View: Tableau Treemap</b></td>
+    <td><b>Backend View: SQL Result Grid</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/image_763962.png" width="100%" alt="Tableau Treemap Popular Artists"></td>
-    <td><img src="EDA/Popular_Artists.PNG" width="100%" alt="SQL Artist Verification Grid"></td>
+    <td><img src="EDA/image_763962.png"></td>
+    <td><img src="EDA/Popular_Artists.PNG"></td>
   </tr>
 </table>
 
@@ -49,12 +47,12 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 <table>
   <tr>
-    <td width="50%" align="center"><b>Frontend View: Tableau Bubble Chart</b></td>
-    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+    <td><b>Frontend View: Tableau Bubble Chart</b></td>
+    <td><b>Backend View: SQL Result Grid</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Popular_Genres.PNG" width="100%" alt="Tableau Popular Genres"></td>
-    <td><img src="EDA/Popular_Genres.PNG" width="100%" alt="SQL Genre Verification Grid"></td>
+    <td><img src="EDA/Popular_Genres.PNG"></td>
+    <td><img src="EDA/Popular_Genres.PNG"></td>
   </tr>
 </table>
 
@@ -65,12 +63,12 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 <table>
   <tr>
-    <td width="50%" align="center"><b>Frontend View: Tableau Mood Trends Area Wave</b></td>
-    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+    <td><b>Frontend View: Tableau Area Wave</b></td>
+    <td><b>Backend View: SQL Result Grid</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Mood_Trends.PNG" width="100%" alt="Tableau Mood Trends"></td>
-    <td><img src="EDA/Mood_Trends.PNG" width="100%" alt="SQL Mood Trends Grid"></td>
+    <td><img src="EDA/Mood_Trends.PNG"></td>
+    <td><img src="EDA/Mood_Trends.PNG"></td>
   </tr>
 </table>
 
@@ -81,12 +79,12 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 <table>
   <tr>
-    <td width="50%" align="center"><b>Frontend View: Tableau Profiling Grid</b></td>
-    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+    <td><b>Frontend View: Tableau Profiling Grid</b></td>
+    <td><b>Backend View: SQL Result Grid</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Audio_Feature.PNG" width="100%" alt="Tableau Audio Profiling Matrix"></td>
-    <td><img src="EDA/Audio_Featuring.PNG" width="100%" alt="SQL Audio Features Grid"></td>
+    <td><img src="EDA/Audio_Feature.PNG"></td>
+    <td><img src="EDA/Audio_Featuring.PNG"></td>
   </tr>
 </table>
 
@@ -97,12 +95,12 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 
 <table>
   <tr>
-    <td width="50%" align="center"><b>Frontend View: Tableau Content Impact Bars</b></td>
-    <td width="50%" align="center"><b>Backend View: SQL Result Grid Validation</b></td>
+    <td><b>Frontend View: Tableau Content Bars</b></td>
+    <td><b>Backend View: SQL Result Grid</b></td>
   </tr>
   <tr>
-    <td><img src="EDA/Explicit_and_Clean_Content.PNG" width="100%" alt="Tableau Explicit Content Impact"></td>
-    <td><img src="EDA/Explicit_Content.PNG" width="100%" alt="SQL Explicit Content Grid"></td>
+    <td><img src="EDA/Explicit_and_Clean_Content.PNG"></td>
+    <td><img src="EDA/Explicit_Content.PNG"></td>
   </tr>
 </table>
 
