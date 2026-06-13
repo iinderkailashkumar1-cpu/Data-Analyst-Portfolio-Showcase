@@ -79,4 +79,4 @@ To demonstrate rigorous data integrity, the interactive frontend charts are mirr
 ---
 
 ## 🔗 Live Interactive Links
-* **Tableau Public Active Dashboard:** [Insert Your Live Tableau Public URL Here]
+* **Tableau Public Active Dashboard:** [https://public.tableau.com/views/Spotify_Data_Visualization_17813477710560/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
