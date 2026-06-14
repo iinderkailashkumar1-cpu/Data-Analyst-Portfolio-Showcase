@@ -6,23 +6,27 @@ A comprehensive data engineering and business intelligence project focused on op
 
 ### 1. Full Interactive Operations Dashboard
 An all-in-one operational control room synthesizing sales velocity, workforce metrics, and target fulfillment.
-![Full Dashboard](Coffee%20Shop%20Full%20Dashboard.PNG)
+![Full Dashboard](Coffee_Dashboard.PNG)
 
 ---
 
 ### 2. Multi-Page Detailed Deep-Dives
 
-#### Page 1: Sales & Revenue Tracking
-Focuses on historical transactional patterns, revenue velocity, and product category mix analysis.
-![Page 1](Page%201.PNG)
+### 1. Daily Footfall & Transaction Volume Analysis
+*Identifies weekly traffic trends to determine the busiest operational days for resource planning.*
+![Busiest Days Analysis](Busiest%20day.PNG)
 
-#### Page 2: Staff Performance & Scheduling Efficiency
-Monitors labor productivity, active shift coverage, and scheduling alignments against footfall spikes.
-![Page 2](Page%202.PNG)
+---
 
-#### Page 3: Target Achievement & Outlet Benchmarking
-Evaluates actual performance against pre-defined organizational targets across various retail outlets.
-![Page 3](Page%203.PNG)
+### 2. Customer Demographics & Generational Insights
+*Segments the customer base into distinct age profiles to identify the driving consumer segments.*
+![Customer Demographics](Generation.PNG)
+
+---
+
+### 3. Hourly Product Demand Heatmap
+*A comprehensive cross-sectional heatmap showcasing product sales velocity by the hour to isolate peak morning rush and product popularity.*
+![Product Sales Analysis](Most%20sale%20coffee.PNG)
 
 ---
 
