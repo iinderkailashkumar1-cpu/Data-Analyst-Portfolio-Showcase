@@ -7,7 +7,7 @@ An end-to-end data analytics project focused on analyzing Airbnb listing data, t
 ## 📊 Project Dashboards & Visualizations
 
 ### 1. Full Interactive Dashboard Overview
-![Airbnb Dashboard](Airbnb_Revenue_Dashboard.PNG)
+![Airbnb Dashboard](Airbnb_Dashboard.PNG)
 
 ---
 
