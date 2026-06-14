@@ -2,7 +2,7 @@
 
 ## 📊 Dashboard Preview
 <!-- Image link with percentage encoding for spaces to ensure it renders perfectly on GitHub -->
-![Sales and Procurement Analysis Dashboard](Sale%20and%20Procurement%20Analysis%20Dashboard.PNG)
+![Sales and Procurement Analysis Dashboard](Sale_Dashboard.PNG)
 
 ## 🎯 Project Overview
 This project focuses on a comprehensive **Sales, Procurement, and Customer Purchase Analysis** for an e-commerce operation specializing in survival and prepping gear. The core objective is to evaluate product performance, understand regional sales distribution, monitor manufacturing vs. retail pricing, and analyze customer behavior across different store segments.
