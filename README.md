@@ -4,7 +4,6 @@ Welcome to my data analytics portfolio showcase. Here, I document end-to-end dat
 
 ## 🎖️ Professional Certification
 ![Data Analytics Certificate](Inder_Data_Analytics_Certificate.PNG)
-
 ---
 
 ## 📁 Portfolio Projects Overview
