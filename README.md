@@ -3,7 +3,7 @@
 Welcome to my data analytics portfolio showcase. Here, I document end-to-end data analysis projects, business intelligence dashboards, and data-driven insights.
 
 ## 🎖️ Professional Certification
-![Data Analytics Certificate](Inder_Data_Analytics_Certificate.PNG)
+![Data Analytics Certificate](Inder_Data_Analytics_Certificate.png)
 ---
 
 ## 📁 Portfolio Projects Overview
