@@ -12,6 +12,7 @@ Below is a detailed breakdown of the analytical infrastructure, dashboards, and 
 
 | 📂 Project Folder | 🛠️ Tech Stack | 📊 Business Insights Focus |
 | :--- | :--- | :--- |
+| 🎥 **[Global-YouTube-Statistics](./Global-YouTube-Statistics)** | Python (Pandas/Seaborn), Power BI | Global audience scaling metrics, geographic content hotspots, traffic density vs. revenue elasticity, and advanced DAX visualization reporting. |
 | 🚀 **[Airbnb-Project](./Airbnb-Project)** | Tableau, Excel / Python | Time-series revenue seasonality, geographic zip-code heatmaps, and pricing power elasticity analysis. |
 | ☕ **[Coffee-Shop-Analysis](./Coffee-Shop-Analysis)** | Tableau | Hourly sales velocity matrices, hourly customer traffic spikes, and generational age cohort profiling. |
 | 📈 **[Sales-and-Procurement-Analysis](./Sales-and-Procurement-Analysis)** | Power BI | Profitability velocity mapping, unit sales trajectory, and production cost vs. price optimization. |
