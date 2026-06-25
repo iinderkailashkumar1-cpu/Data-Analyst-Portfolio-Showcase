@@ -55,10 +55,10 @@ Before deploying the visual layout in Power BI, rigorous programmatic data clean
 
 ### 🔍 Python Visualization Outputs & Statistical Discrepancies:
 
-#### A. Top Creators & The Power BI Tie-Breaking Phenomemon
+#### A. Top Creators & The Power BI Tie-Breaking Phenomenon
 *Below is the programmatic visualization plotting the leading channels based on core platform metrics:*
 
-![Top Creators](Top_Creators.PNG)
+![Top Creators](YouTube%20EDA/Top_Creators.PNG)
 
 > 💡 **Data Insight Note (Power BI vs. Python EDA Alignment):**
 > If you look closely at the Power BI dashboard, the recent growth chart displays **11 bars**, whereas the Python EDA strictly reflects fewer channels or specific top boundaries. This is an intentional alignment setup! 
@@ -67,18 +67,18 @@ Before deploying the visual layout in Power BI, rigorous programmatic data clean
 #### B. Platform Growth & Financial Indicators
 *Programmatic plotting mapping the distribution density, audience accumulation over operational cycles, and revenue markers across the dataset:*
 
-![Subscriber Growth](Subscriber_growth.PNG)
+![Subscriber Growth](YouTube%20EDA/Subscriber_growth.PNG)
 
 #### C. Traffic Density & Revenue Elasticity
 *Statistical correlation plots tracking how video traffic flows translate into actual monetization channels:*
 
-![Video Views Distribution](Video_views.PNG)
-![Monthly Earnings Profile](Monthly_Earnings.PNG)
+![Video Views Distribution](YouTube%20EDA/Video_views.PNG)
+![Monthly Earnings Profile](YouTube%20EDA/Monthly_Earnings.PNG)
 
 #### D. Geographic Demographics
 *Visualizing the global footprint of top-tier content nodes to pinpoint target regional markets:*
 
-![Country Wise Youtubers](County_Wise_Youtubers.png)
+![Country Wise Youtubers](YouTube%20EDA/County_Wise_Youtubers.png)
 
 ---
 
