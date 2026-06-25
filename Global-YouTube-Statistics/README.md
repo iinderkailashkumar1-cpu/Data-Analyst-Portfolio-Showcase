@@ -72,13 +72,13 @@ Before deploying the visual layout in Power BI, rigorous programmatic data clean
 #### C. Traffic Density & Revenue Elasticity
 *Statistical correlation plots tracking how video traffic flows translate into actual monetization channels:*
 
-![Video Views Distribution](YouTube%20EDA/Video_Views.PNG)
+![Video Views Distribution](YouTube%20EDA/Video-views.PNG)
 ![Monthly Earnings Profile](YouTube%20EDA/Monthly_Earnings.PNG)
 
 #### D. Geographic Demographics
 *Visualizing the global footprint of top-tier content nodes to pinpoint target regional markets:*
 
-![Country Wise Youtubers](YouTube%20EDA/County_Wise_Youtubers.PNG)
+![Country Wise Youtubers](YouTube%20EDA/County-Wise-Youtubers.png)
 
 ---
 
