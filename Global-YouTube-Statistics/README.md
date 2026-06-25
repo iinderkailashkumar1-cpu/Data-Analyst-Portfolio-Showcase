@@ -1,4 +1,4 @@
-# 📊 Global YouTube Performance & Analytics (End-to-End Data Project)
+# 📊 Global YouTube Performance & Analytics of 2022 (End-to-End Data Project)
 
 ## 📌 1. Project Overview
 This project delivers an end-to-end data analytics and engineering solution designed to decode the factors driving global YouTube success. Utilizing a comprehensive dataset of top-performing content creators, this project bridges data exploration with executive-level storytelling. It transitions from raw data profiling and structural cleaning in **Python** to an interactive, fully optimized business intelligence dashboard in **Power BI**.
@@ -37,7 +37,7 @@ The analysis focuses on exploring demographic distributions, tracking content ca
 
 Below is the executive-ready interactive dashboard highlighting core metrics, geographical footprints, structural category boxes, and cross-filtered correlation clusters:
 
-![Power BI Dashboard](Global-YouTube-Statistics/image_236d64.png)
+![Power BI Dashboard](Global%20Youtube%20Dashboard.PNG)
 
 ### 📊 Dashboard Visual Components:
 1.  **KPI Cards:** Displaying robust custom measures for **Total Video Views (10.98T)**, **Total Subscribers (22.9B)**, and **Total Top Creators (995)**.
@@ -51,19 +51,34 @@ Below is the executive-ready interactive dashboard highlighting core metrics, ge
 
 ## 🐍 5. Exploratory Data Analysis (EDA) - Python
 
-Before deploying the visual layout in Power BI, rigorous programmatic data cleaning and exploratory analytics were executed in Python to uncover underlying structures and filter anomalies (such as null fields, placeholder zero-records, and mismatched categorical strings).
+Before deploying the visual layout in Power BI, rigorous programmatic data cleaning and exploratory analytics were executed in Python using Pandas, Matplotlib, and Seaborn. This process was critical to uncover underlying structures and filter data anomalies.
 
-### 🔍 Python Visualization Outputs:
+### 🔍 Python Visualization Outputs & Statistical Discrepancies:
 
-#### A. Country Wise Distribution Counts
-*Below is the data distribution profile capturing top creator frequencies across regional territories using Pandas aggregation and visualization tools:*
+#### A. Top Creators & The Power BI Tie-Breaking Phenomemon
+*Below is the programmatic visualization plotting the leading channels based on core platform metrics:*
 
-![Country Wise Distribution](Global-YouTube-Statistics/image_236d64.png) *(Note: Please replace this placeholder image path with your specific Python EDA plot file name if saved separately in your folder, e.g., `eda_country_chart.png`)*
+![Top Creators](Top_Creators.PNG)
 
-#### B. Category and Feature Correlations
-*Programmatic plotting mapping the distribution density and alignments between channel scales, platform growth, and monetization markers:*
+> 💡 **Data Insight Note (Power BI vs. Python EDA Alignment):**
+> If you look closely at the Power BI dashboard, the recent growth chart displays **11 bars**, whereas the Python EDA strictly reflects fewer channels or specific top boundaries. This is an intentional alignment setup! 
+> In Power BI, when using the `Top N` filtering mechanism, if multiple creators share an *identical exact value* at the 10th-row cutoff (a data tie/draw), Power BI includes all tying records to prevent data loss. In our Python environment, custom clipping configurations or standard data handling isolates the top exact values without rendering duplicate ties, leading to this slight visual variation between the two environments.
 
-![Python Feature Distributions](Global-YouTube-Statistics/image_236d64.png) *(Note: Please replace this placeholder image path with your specific Python correlation plot file name if saved separately in your folder, e.g., `eda_correlation_chart.png`)*
+#### B. Platform Growth & Financial Indicators
+*Programmatic plotting mapping the distribution density, audience accumulation over operational cycles, and revenue markers across the dataset:*
+
+![Subscriber Growth](Subscriber_growth.PNG)
+
+#### C. Traffic Density & Revenue Elasticity
+*Statistical correlation plots tracking how video traffic flows translate into actual monetization channels:*
+
+![Video Views Distribution](Video_views.PNG)
+![Monthly Earnings Profile](Monthly_Earnings.PNG)
+
+#### D. Geographic Demographics
+*Visualizing the global footprint of top-tier content nodes to pinpoint target regional markets:*
+
+![Country Wise Youtubers](County_Wise_Youtubers.png)
 
 ---
 
